@@ -8,6 +8,7 @@
     table,tr,td,th{
         border: 2px solid blue;
         border-collapse: collapse;
+        padding: 20px 20px;
     }
     td{
         padding-right: 2px;
@@ -23,16 +24,26 @@
         text-shadow: 2px 2px 3px red;
     }
     
+    .contactDetailsContent{
+        margin-left: 30px;
+        margin-right: 10px;
+
+    }
+    .contactDetailsContent1{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
 </style>
 </head>
 <body>
     <h2>My Personal Details</h2>
     <img src="/profileImage.jpg" alt="profileImage">
-    <p><Strong>Name</Strong>: Rohit Malvi</p>
+    <p><Strong class="contactDetailsContent">Name</Strong>: Rohit Malvi</p>
     
     <h3>Contact Details</h3>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<Strong>Mobile</Strong>: 1234567890</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<Strong>Email ID</Strong>: abc@gmail.com</p>
+    <p><Strong class="contactDetailsContent">Mobile</Strong>:<span class="contactDetailsContent1"> 1234567890</span></p>
+    <p><Strong class="contactDetailsContent">Email ID</Strong>:<span class="contactDetailsContent1"> abc@gmail.com</span></p>
     <hr>
     <h3>My Technology Stack</h3>
     <ul>
@@ -56,7 +67,7 @@
             <tr>
                 <td>1</td>
                 <td>Graduation</td>
-                <td>COEP college</td>
+                <td>COEP College</td>
                 <td>Pune University</td>
             </tr>
             <tr>
