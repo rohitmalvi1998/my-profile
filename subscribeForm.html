@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <style>
+        .container{
+
+            border: 2px solid black;
+            border-radius: 20px;
+            width: 600px;
+            height:700px ;
+            box-shadow: 100px blue;
+            margin-left: 100px;
+            background-color: rgb(230, 181, 77);
+        }
+        .sub-container {
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 10px;
+            font-family: 'Poppins', sans-serif;
+
+            margin-left: 50px;
+            margin-bottom: 15px;
+            width: 440px;
+            height: 200px;
+            font-size: large;
+            padding-left: 5px;
+            font-family: 'Sofia', cursive;
+            font-weight: bolder;
+            color: black;
+            background-color: darkkhaki;
+        }
+
+        label{
+            padding-left: 50px;
+            font-weight: bolder;
+            color: black;
+            font-family: 'Poppins', sans-serif;
+
+        }
+        
+                h2{
+            padding-left: 10px;
+        }
+        hr{
+            padding-left: 0px;
+            width: 550px;
+        }
+        .subscribe-button:hover{
+
+           background-color:rgb(139, 167, 88);
+           
+        }
+
+        .subscribe-button{
+        
+            
+                width: 200px;
+                    border-radius: 10px;
+                    padding: 5px;
+                    color: cadetblue;
+                    font-weight: bolder;
+                    font-size: large;
+                    font-family: 'Poppins', sans-serif;
+                   margin-left: 160px;
+                    padding-left:  50px;
+                    padding-right: 50px;
+        }
+        input[type="text"]   {
+            width: 420px;
+                border-radius: 10px;
+                padding: 5px;
+                color: cadetblue;
+                font-weight: bolder;
+                font-size: large;
+                font-family: 'Poppins', sans-serif;
+                margin-bottom: 15px;
+                margin-left: 50px;
+                box-shadow: 10px red;
+        }
+        input[type="email"]   {
+            width: 420px;
+                border-radius: 10px;
+                padding: 5px;
+                color: black;
+                font-weight: bolder;
+                font-size: large;
+                font-family: 'Poppins', sans-serif;
+                margin-bottom: 15px;
+                margin-left: 50px;
+    
+        }
+
+        sup{
+            color: red;
+                        
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Subscriber</h2>
+        <hr>
+        <div class="sub-container">
+            <p>
+                We're sorry to see  you go,but hey , no hard feelings , hopefully we will see you back one day. 
+                Please fill in your email in order to unsubscribe from the list. 
+                You will recieve an email to confirm your unsubscription , just to make sure this is not an accident 
+                or somebody else tries to unsubscribe you.
+            </p>
+        </div>
+            <form action="" method="get">
+                <table>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="">Email <sup>*</sup></label>
+                            </td>
+                        </tr>
+                        <td>
+                            <input  class="input-field"  type="email" required name="" id="" placeholder="Example abc@gmail.com">
+                        </td>
+
+                        <tr>
+                            <td>
+                                <label for="">Unsubscribe Reason</label>
+                            </td>
+                        </tr>
+                        <td>
+                            <input  class="input-field"   type="text" name="" id="" placeholder="specify reason" >
+                        </td>
+                       <tr>
+                        <td>
+                            <button class="subscribe-button" type="submit">Unsubscribe</button> 
+                        </td>
+                       </tr> 
+                        
+                    </tbody>
+                </table>
+
+            </form>
+
+
+
+    </div>
+    
+</body>
+</html>
